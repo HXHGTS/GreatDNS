@@ -1,0 +1,2 @@
+# GreatDNS
+DNS收集
