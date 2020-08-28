@@ -49,6 +49,8 @@ Quad101DNS:
 ```
 101.101.101.101
 101.102.103.104
+https://dns.twnic.tw/dns-query
+tls://101.101.101.101
 ```
 LG U+ DNS:
 ```
