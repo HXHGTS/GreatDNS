@@ -5,6 +5,12 @@ Google:
 ```
 8.8.8.8
 8.8.4.4
+2001:4860:4860::8888
+2001:4860:4860::8844
+2001:4860:4860::6464 (DNS64)
+2001:4860:4860::64 (DNS64)
+tls://dns.google
+https://dns.google/dns-query
 ```
 Cloudflare:
 ```
@@ -18,6 +24,17 @@ https://1.1.1.1/dns-query
 https://1.0.0.1/dns-query
 tls://one.one.one.one
 tls://1dot1dot1dot1.cloudflare-dns.com
+```
+Level3:
+```
+4.2.2.1
+4.2.2.2
+4.2.2.3
+4.2.2.4
+4.2.2.5
+4.2.2.6
+209.244.0.3
+209.244.0.4
 ```
 KT电信DNS:
 ```
