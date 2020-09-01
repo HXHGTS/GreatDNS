@@ -64,10 +64,12 @@ LG U+ DNS:
 ```
 ns.dacom.co.kr
 164.124.101.2
-cns3.bora.net
-203.248.252.2
+ns2.dacom.co.kr
+203.248.240.31
 cns2.bora.net
 164.124.107.9
+cns3.bora.net
+203.248.252.2
 ```
 Quad101DNS:
 ```
