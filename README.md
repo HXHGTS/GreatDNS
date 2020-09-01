@@ -39,7 +39,12 @@ resolver3.opendns.com
 208.67.222.220
 resolver4.opendns.com
 208.67.220.222
+resolver1-fs.opendns.com
+208.67.222.123
+resolver2-fs.opendns.com
+208.67.220.123
 https://doh.opendns.com/dns-query
+https://doh.familyshield.opendns.com/dns-query
 ```
 Level3:
 ```
