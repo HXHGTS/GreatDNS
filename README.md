@@ -27,7 +27,7 @@ https://cloudflare-dns.com/dns-query
 tls://one.one.one.one
 tls://1dot1dot1dot1.cloudflare-dns.com
 ```
-Cisco OpenDNS:
+Cisco OpenDNS(support 5353):
 ```
 resolver1.opendns.com
 208.67.222.222
@@ -47,6 +47,31 @@ resolver2-fs.opendns.com
 2620:119:53::123
 https://doh.opendns.com/dns-query
 https://doh.familyshield.opendns.com/dns-query
+```
+Quad9(support 9953):
+```
+dns.quad9.net
+dns9.quad9.net
+9.9.9.9
+149.112.112.9
+2620:fe::9
+2620:fe::fe:9
+dns10.quad9.net
+9.9.9.10
+149.112.112.10
+2620:fe::10
+2620:fe::fe:10
+dns11.quad9.net
+9.9.9.11
+149.112.112.11
+2620:fe::11
+2620:fe::fe:11
+rpz-public-resolver1.rrdns.pch.net
+149.112.112.112
+full-public-resolver1.rrdns.pch.net
+149.112.112.113
+tls://dns.quad9.net
+https://dns.quad9.net/dns-query
 ```
 Level3:
 ```
@@ -110,7 +135,7 @@ hntp1.hinet.net
 168.95.192.1
 ```
 
-### 国内(5353端口):
+### 国内(support 5353):
 
 清华大学TUNA666:
 ```
