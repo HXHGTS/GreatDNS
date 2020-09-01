@@ -27,6 +27,20 @@ https://cloudflare-dns.com/dns-query
 tls://one.one.one.one
 tls://1dot1dot1dot1.cloudflare-dns.com
 ```
+Cisco OpenDNS:
+```
+resolver1.opendns.com
+208.67.222.222
+2620:119:35::35
+resolver2.opendns.com
+208.67.220.220
+2620:119:53::53
+resolver3.opendns.com
+208.67.222.220
+resolver4.opendns.com
+208.67.220.222
+https://doh.opendns.com/dns-query
+```
 Level3:
 ```
 a.resolvers.level3.net
@@ -103,22 +117,22 @@ hntp1.hinet.net
 ```
 
 ## 内网DNS
-阿里云DNS(内网):
+阿里云(内网):
 ```
 100.100.2.136
 100.100.2.138
 ```
-腾讯云DNS(内网):
+腾讯云(内网):
 ```
 183.60.83.19
 183.60.82.98
 ```
-DigitalOcean DNS(内网):
+DigitalOcean(内网):
 ```
 67.207.67.2
 67.207.67.3
 ```
-AWS DNS(内网):
+AWS(内网):
 ```
 172.31.0.2
 ```
