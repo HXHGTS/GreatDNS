@@ -46,21 +46,21 @@ resolver1.level3.net
 resolver2.level3.net
 209.244.0.4
 ```
-KT电信DNS:
+KT:
 ```
 kns.kornet.net
 168.126.63.1
 kns2.kornet.net
 168.126.63.2
 ```
-SKT电信DNS:
+SK:
 ```
 bns1.hananet.net
 210.220.163.82
 bns2.hananet.net
 219.250.36.130
 ```
-LG U+ DNS:
+LG:
 ```
 ns.dacom.co.kr
 164.124.101.2
@@ -71,7 +71,7 @@ cns2.bora.net
 cns3.bora.net
 203.248.252.2
 ```
-Quad101DNS:
+Quad101:
 ```
 twnic-public-dns.twnic.tw
 101.101.101.101
@@ -81,7 +81,7 @@ twnic-public-dns.twnic.tw
 https://dns.twnic.tw/dns-query
 tls://101.101.101.101
 ```
-中华电信DNS:
+HiNet:
 ```
 dns.hinet.net
 168.95.1.1
