@@ -10,8 +10,6 @@ Google:
 8.8.4.4
 2001:4860:4860::8888
 2001:4860:4860::8844
-2001:4860:4860::6464 (DNS64)
-2001:4860:4860::64 (DNS64)
 tls://dns.google
 https://dns.google/dns-query
 ```
@@ -21,8 +19,6 @@ Cloudflare:
 1.0.0.1
 2606:4700:4700::1111
 2606:4700:4700::1001
-2606:4700:4700::64 (DNS64)
-2606:4700:4700::6400 (DNS64)
 https://cloudflare-dns.com/dns-query
 tls://one.one.one.one
 tls://1dot1dot1dot1.cloudflare-dns.com
