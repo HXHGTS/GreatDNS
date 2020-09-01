@@ -41,8 +41,10 @@ resolver4.opendns.com
 208.67.220.222
 resolver1-fs.opendns.com
 208.67.222.123
+2620:119:35::123
 resolver2-fs.opendns.com
 208.67.220.123
+2620:119:53::123
 https://doh.opendns.com/dns-query
 https://doh.familyshield.opendns.com/dns-query
 ```
