@@ -154,6 +154,8 @@ hntp1.hinet.net
 ```
 183.60.83.19
 183.60.82.98
+mirrors.tencentyun.com(腾讯镜像源内网地址)
+169.254.0.3
 ```
 DigitalOcean(内网):
 ```
