@@ -1,5 +1,4 @@
-# GreatDNS
-DNS收集
+无污染DNS收集
 ## 公用DNS
 
 ### 国外：
