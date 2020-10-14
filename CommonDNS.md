@@ -12,7 +12,9 @@ pdns.dnspod.cn
 
 阿里:
 ```
+public1.alidns.com
 223.5.5.5
+public2.alidns.com
 223.6.6.6
 ```
 
