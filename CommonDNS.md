@@ -10,6 +10,8 @@ pdns.dnspod.cn
 182.254.116.116
 https://dns.pub/dns-query
 https://doh.pub/dns-query
+tls://dns.pub
+tls://doh.pub
 ```
 
 阿里:
@@ -18,6 +20,8 @@ public1.alidns.com
 223.5.5.5
 public2.alidns.com
 223.6.6.6
+https://dns.alidns.com/dns-query
+tls://dns.alidns.com
 ```
 
 114:
@@ -36,3 +40,10 @@ protect-children-2.114dns.com
 114.114.115.110
 ```
 
+CNNIC
+```
+
+1.2.4.8
+
+210.2.4.8
+```
