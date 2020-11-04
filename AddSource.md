@@ -19,6 +19,13 @@ yum clean all && yum makecache
 yum repolist
 ```
 
+### 添加华为源
+```
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.huaweicloud.com/repository/conf/CentOS-7-anon.repo
+yum clean all && yum makecache
+yum repolist
+```
+
 ### 添加清华源
 ```
 echo '151.101.108.133 raw.githubusercontent.com' > /etc/hosts
