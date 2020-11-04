@@ -11,3 +11,17 @@ curl -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/
 yum clean all && yum makecache
 yum repolist
 ```
+
+### 添加网易源
+```
+curl -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.163.com/.help/CentOS7-Base-163.repo
+yum clean all && yum makecache
+yum repolist
+```
+
+### 添加清华源
+```
+curl -O /etc/yum.repos.d/CentOS-Base.repo 
+yum clean all && yum makecache
+yum repolist
+```
