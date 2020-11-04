@@ -21,7 +21,7 @@ yum repolist
 
 ### 添加清华源
 ```
-echo 'nameserver 223.5.5.5' > /etc/resolv.conf
+echo '151.101.108.133 raw.githubusercontent.com' > /etc/hosts
 curl -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/CentOS-Base.repo
 yum clean all && yum makecache
 yum repolist
