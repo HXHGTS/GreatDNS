@@ -30,7 +30,7 @@ time5.cloud.tencent.com
 ```
 systemctl stop chronyd
 systemctl disable chronyd
-server ntpupdate.tencentyun.com > /etc/ntp.conf
+echo 'server ntpupdate.tencentyun.com' > /etc/ntp.conf
 systemctl start ntpd
 systemctl start chronyd
 systemctl enable chronyd
