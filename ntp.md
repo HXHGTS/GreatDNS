@@ -28,10 +28,13 @@ time5.cloud.tencent.com
 
 ### CentOS配置NTP命令
 ```
+systemctl stop ntpd
+systemctl disable ntpd
 systemctl stop chronyd
 systemctl disable chronyd
 echo 'server ntpupdate.tencentyun.com' > /etc/ntp.conf
 systemctl start ntpd
+systemctl enable ntpd
 systemctl start chronyd
 systemctl enable chronyd
 ```
