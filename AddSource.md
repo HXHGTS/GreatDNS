@@ -21,7 +21,8 @@ yum repolist
 
 ### 添加清华源
 ```
-curl -O /etc/yum.repos.d/CentOS-Base.repo 
+echo 'nameserver 223.5.5.5' > /etc/resolv.conf
+curl -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/CentOS-Base.repo
 yum clean all && yum makecache
 yum repolist
 ```
