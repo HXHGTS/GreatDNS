@@ -25,3 +25,13 @@ time3.cloud.tencent.com
 time4.cloud.tencent.com
 time5.cloud.tencent.com
 ```
+
+### CentOS配置NTP命令
+```
+systemctl stop chronyd
+systemctl disable chronyd
+server ntpupdate.tencentyun.com > /etc/ntp.conf
+systemctl start ntpd
+systemctl start chronyd
+systemctl enable chronyd
+```
