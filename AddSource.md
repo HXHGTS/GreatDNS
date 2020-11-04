@@ -26,3 +26,12 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHG
 yum clean all && yum makecache
 yum repolist
 ```
+
+### 添加中科大源
+```
+echo '151.101.108.133 raw.githubusercontent.com' > /etc/hosts
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/CentOS-Base-USTC.repo
+yum clean all && yum makecache
+yum repolist
+```
+
