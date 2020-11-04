@@ -35,3 +35,10 @@ yum clean all && yum makecache
 yum repolist
 ```
 
+### 添加浙大源
+```
+echo '151.101.108.133 raw.githubusercontent.com' > /etc/hosts
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/CentOS-Base-Zju.repo
+yum clean all && yum makecache
+yum repolist
+```
