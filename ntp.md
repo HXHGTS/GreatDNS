@@ -1,6 +1,7 @@
 ## NTP服务器收集
 
 ### 阿里云
+```
 内网:
 ntp.cloud.aliyuncs.com
 ntp1.cloud.aliyuncs.com
@@ -11,6 +12,8 @@ ntp12.cloud.aliyuncs.com
 ntp.aliyun.com
 ntp1.aliyun.com
 ntp7.aliyun.com
+```
+
 ### 腾讯云
 ```
 内网:
