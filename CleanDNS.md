@@ -141,6 +141,15 @@ dns.hinet.net
 hntp1.hinet.net
 168.95.192.1
 ```
+NTT
+```
+x.ns.gin.ntt.net
+129.250.35.250
+2001:418:3ff::53
+y.ns.gin.ntt.net
+129.250.35.251
+2001:418:3ff::1:53
+```
 
 ### 国内(support 5353):
 
