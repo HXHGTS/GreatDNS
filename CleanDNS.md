@@ -44,6 +44,17 @@ resolver2-fs.opendns.com
 https://doh.opendns.com/dns-query
 https://doh.familyshield.opendns.com/dns-query
 ```
+NextDNS(support 5353):
+```
+dns1.nextdns.io
+45.90.28.249
+2a07:a8c0::
+dns2.nextdns.io
+45.90.30.249
+2a07:a8c1::
+tls://dns.nextdns.io
+https://dns.nextdns.io/dns-query
+```
 Quad9(support 9953):
 ```
 dns.quad9.net
