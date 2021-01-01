@@ -90,7 +90,7 @@ twnic-public-dns.twnic.tw
 https://dns.twnic.tw/dns-query
 tls://101.101.101.101
 ```
-HiNet:
+IIJ:
 ```
 103.2.57.5
 tls://public.dns.iij.jp
