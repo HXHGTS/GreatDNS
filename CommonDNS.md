@@ -20,6 +20,8 @@ public1.alidns.com
 223.5.5.5
 public2.alidns.com
 223.6.6.6
+2400:3200::1
+2400:3200:baba::1
 https://dns.alidns.com/dns-query
 tls://dns.alidns.com
 ```
