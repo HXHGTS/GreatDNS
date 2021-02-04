@@ -28,24 +28,21 @@ yum repolist
 
 ### 添加清华源
 ```
-echo '151.101.108.133 raw.githubusercontent.com' > /etc/hosts
-wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/CentOS-Base-Tsinghua.repo
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://cdn.jsdelivr.net/gh/HXHGTS/GreatDNS/CentOS-Base-Tsinghua.repo
 yum clean all && yum makecache
 yum repolist
 ```
 
 ### 添加中科大源
 ```
-echo '151.101.108.133 raw.githubusercontent.com' > /etc/hosts
-wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/CentOS-Base-USTC.repo
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://cdn.jsdelivr.net/gh/HXHGTS/GreatDNS/CentOS-Base-USTC.repo
 yum clean all && yum makecache
 yum repolist
 ```
 
 ### 添加浙大源
 ```
-echo '151.101.108.133 raw.githubusercontent.com' > /etc/hosts
-wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/CentOS-Base-Zju.repo
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://cdn.jsdelivr.net/gh/HXHGTS/GreatDNS/CentOS-Base-Zju.repo
 yum clean all && yum makecache
 yum repolist
 ```
