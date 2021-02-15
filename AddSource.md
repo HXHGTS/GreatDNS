@@ -1,3 +1,10 @@
+### 重置官方源
+```
+cd /etc/yum.repos.d/
+rpm -Uvh --force http://mirror.centos.org/centos-7/7.7.1908/os/x86_64/Packages/centos-release-7-7.1908.0.el7.centos.x86_64.rpm
+yum clean all
+yum makecache
+```
 ### 添加阿里源
 ```
 wget -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
