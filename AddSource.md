@@ -1,6 +1,6 @@
 ### 重置官方源
 ```
-cd /etc/yum.repos.d/
+rm -f /etc/yum.repos.d/*
 wget https://cdn.jsdelivr.net/gh/HXHGTS/GreatDNS/CentOS7-Base.repo -O /etc/yum.repos.d/CentOS-Base.repo
 yum clean all
 yum makecache
