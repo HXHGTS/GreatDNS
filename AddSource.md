@@ -1,15 +1,10 @@
 ### 重置官方源
 ```
-rm -f /etc/yum.repos.d/*
-wget https://cdn.jsdelivr.net/gh/HXHGTS/GreatDNS/CentOS7-Base.repo -O /etc/yum.repos.d/CentOS-Base.repo
-yum clean all
-yum makecache
+rm -f /etc/yum.repos.d/* && curl https://cdn.jsdelivr.net/gh/HXHGTS/GreatDNS/CentOS7-Base.repo > /etc/yum.repos.d/CentOS-Base.repo && yum clean all && yum makecache
 ```
 ### 添加阿里源
 ```
-wget http://mirrors.aliyun.com/repo/Centos-7.repo -O /etc/yum.repos.d/CentOS-Base.repo 
-yum clean all && yum makecache
-yum repolist
+wget http://mirrors.aliyun.com/repo/Centos-7.repo -O /etc/yum.repos.d/CentOS-Base.repo && yum clean all && yum makecache && yum repolist
 ```
 
 ### 添加腾讯源
