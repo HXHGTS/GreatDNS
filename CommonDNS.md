@@ -8,6 +8,7 @@ pdns.dnspod.cn
 119.29.29.29
 119.28.28.28
 182.254.116.116
+182.254.116.117
 https://dns.pub/dns-query
 https://doh.pub/dns-query
 tls://dns.pub
