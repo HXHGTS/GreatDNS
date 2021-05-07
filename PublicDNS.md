@@ -50,8 +50,15 @@ public1.sdns.cn
 public2.sdns.cn
 210.2.4.8
 ```
+
 百度:
 ```
 public-dns-a.baidu.com
 180.76.76.76
+```
+
+Rubyfish:
+```
+https://rubyfish.cn/dns-query
+https://v6.rubyfish.cn/dns-query
 ```
