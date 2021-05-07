@@ -8,6 +8,7 @@ pdns.dnspod.cn
 119.29.29.29
 119.28.28.28
 182.254.116.116
+182.254.118.118
 https://dns.pub/dns-query
 https://doh.pub/dns-query
 tls://dns.pub
@@ -42,10 +43,15 @@ protect-children-2.114dns.com
 114.114.115.110
 ```
 
-CNNIC
+CNNIC:
 ```
 public1.sdns.cn
 1.2.4.8
 public2.sdns.cn
 210.2.4.8
+```
+百度:
+```
+public-dns-a.baidu.com
+180.76.76.76
 ```
