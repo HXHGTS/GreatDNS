@@ -19,7 +19,6 @@ Cloudflare:
 1.0.0.1
 2606:4700:4700::1111
 2606:4700:4700::1001
-https://cloudflare-dns.com/dns-query
 tls://one.one.one.one
 tls://1dot1dot1dot1.cloudflare-dns.com
 ```
