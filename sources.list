@@ -1,6 +1,7 @@
-deb http://cdn-aws.deb.debian.org/debian $(lsb_release -sc) main contrib non-free
-deb http://cdn-aws.deb.debian.org/debian-security $(lsb_release -sc)/updates main contrib non-free
-deb http://cdn-aws.deb.debian.org/debian $(lsb_release -sc)-updates main contrib non-free
-deb http://cdn-aws.deb.debian.org/debian $(lsb_release -sc)-backports main contrib non-free
-deb http://cdn-aws.deb.debian.org/debian $(lsb_release -sc)-proposed-updates main contrib non-free
-# deb http://cdn-aws.deb.debian.org/debian $(lsb_release -sc)-backports-sloppy main contrib non-free
+deb http://deb.debian.org/debian buster main contrib non-free
+
+deb-src http://deb.debian.org/debian buster main contrib non-free
+
+deb http://security.debian.org/debian-security buster/updates main contrib
+
+deb-src http://security.debian.org/debian-security buster/updates main contrib
