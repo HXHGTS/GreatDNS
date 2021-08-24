@@ -9,6 +9,8 @@ pdns.dnspod.cn
 119.28.28.28
 182.254.116.116
 182.254.118.118
+2402:4e00::
+2402:4e00:1::
 https://dns.pub/dns-query
 https://doh.pub/dns-query
 tls://dns.pub
