@@ -9,3 +9,9 @@
 ### 收集国内常用CentOS7安装源，用于服务器软件更新
 
 [CentOS7安装源](/AddSource.md) [Debian安装源](/sources.list)
+
+### Besttrace安装
+
+```
+curl -sSL https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/besttrace.sh | bash
+```
