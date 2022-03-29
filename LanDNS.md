@@ -22,4 +22,16 @@ DigitalOcean(内网):
 AWS(内网):
 ```
 172.31.0.2
+172.26.0.2
 ```
+Linode(新加坡-内网):
+```
+domain members.linode.com
+search members.linode.com
+nameserver 103.3.60.19
+nameserver 103.3.60.18
+nameserver 139.162.15.5
+options rotate
+```
+
+
