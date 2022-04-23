@@ -31,6 +31,7 @@ search members.linode.com
 nameserver 103.3.60.19
 nameserver 103.3.60.18
 nameserver 139.162.15.5
+nameserver 139.162.21.5
 options rotate
 ```
 Linode(费里蒙特-内网):
