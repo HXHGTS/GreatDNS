@@ -42,3 +42,12 @@ nameserver 74.207.241.5
 nameserver 173.255.241.5
 options rotate
 ```
+Linode(东京-内网)
+```
+domain members.linode.com
+search members.linode.com
+nameserver 139.162.73.5
+nameserver 139.162.68.5
+nameserver 139.162.71.5
+options rotate
+```
