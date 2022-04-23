@@ -52,3 +52,12 @@ nameserver 139.162.68.5
 nameserver 139.162.71.5
 options rotate
 ```
+Linode(孟买-内网)
+```
+domain members.linode.com
+search members.linode.com
+nameserver 172.105.36.5
+nameserver 172.105.40.5
+nameserver 172.105.38.5
+options rotate
+```
