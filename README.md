@@ -13,5 +13,5 @@
 ### Besttrace安装
 
 ```
-curl -sSL https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/besttrace.sh | bash
+curl -sSL https://hxhgts.github.io/GreatDNS/besttrace.sh | bash
 ```
