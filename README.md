@@ -10,8 +10,12 @@
 
 [CentOS7安装源](/AddSource.md) [Debian安装源](/sources.list)
 
-### Besttrace安装
+### Trace安装
 
 ```
 curl -sSL https://hxhgts.github.io/GreatDNS/besttrace.sh | bash
+```
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/xgadget-lab/nexttrace/main/nt_install.sh)
 ```
