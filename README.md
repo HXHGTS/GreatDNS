@@ -17,5 +17,5 @@ curl -sSL https://hxhgts.github.io/GreatDNS/besttrace.sh | bash
 ```
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xgadget-lab/nexttrace/main/nt_install.sh)
+curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace.sh | bash
 ```
