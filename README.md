@@ -19,3 +19,9 @@ curl -sSL https://hxhgts.github.io/GreatDNS/besttrace.sh | bash
 ```
 curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace.sh | bash
 ```
+
+### Speedtest安装
+
+```
+curl -sSL https://hxhgts.github.io/GreatDNS/speedtest.sh | bash
+```
