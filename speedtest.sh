@@ -1,6 +1,6 @@
 #!/bin/sh
 
-curl -s https://install.speedtest.net/app/cli/install.deb.sh | bash
+curl -sSL https://install.speedtest.net/app/cli/install.deb.sh | bash
 
 apt install -y speedtest
 
