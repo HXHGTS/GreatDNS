@@ -56,6 +56,7 @@ public-dns-a.baidu.com
 
 Rubyfish:
 ```
+tls://rubyfish.cn
 https://rubyfish.cn/dns-query
 https://v6.rubyfish.cn/dns-query
 ```
