@@ -8,7 +8,7 @@
 
 ### 收集国内常用CentOS7安装源，用于服务器软件更新
 
-[CentOS7安装源](/AddSource_CentOS7.md) [Debian11安装源](/AddSource_Debian11.md)
+[CentOS7安装源](/AddSource_CentOS7.md) [Debian安装源](/AddSource_Debian.md)
 
 ### Trace安装
 
