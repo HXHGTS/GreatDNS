@@ -1,0 +1,4 @@
+deb http://repo.huaweicloud.com/debian-archive/debian/ wheezy main non-free contrib
+deb http://repo.huaweicloud.com/debian-archive/debian/ wheezy-proposed-updates main non-free contrib
+deb-src http://repo.huaweicloud.com/debian-archive/debian/ wheezy main non-free contrib
+deb-src http://repo.huaweicloud.com/debian-archive/debian/ wheezy-proposed-updates main non-free contrib

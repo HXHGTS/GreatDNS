@@ -1,1 +1,8 @@
-
+deb http://repo.huaweicloud.com/debian/ bullseye main non-free contrib
+deb-src http://repo.huaweicloud.com/debian/ bullseye main non-free contrib
+deb http://repo.huaweicloud.com/debian-security/ bullseye-security main
+deb-src http://repo.huaweicloud.com/debian-security/ bullseye-security main
+deb http://repo.huaweicloud.com/debian/ bullseye-updates main non-free contrib
+deb-src http://repo.huaweicloud.com/debian/ bullseye-updates main non-free contrib
+deb http://repo.huaweicloud.com/debian/ bullseye-backports main non-free contrib
+deb-src http://repo.huaweicloud.com/debian/ bullseye-backports main non-free contrib

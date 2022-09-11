@@ -1,0 +1,8 @@
+deb http://repo.huaweicloud.com/debian/ stretch main non-free contrib
+deb-src http://repo.huaweicloud.com/debian/ stretch main non-free contrib
+deb http://repo.huaweicloud.com/debian-security stretch/updates main
+deb-src http://repo.huaweicloud.com/debian-security stretch/updates main
+deb http://repo.huaweicloud.com/debian/ stretch-updates main non-free contrib
+deb-src http://repo.huaweicloud.com/debian/ stretch-updates main non-free contrib
+#deb http://repo.huaweicloud.com/debian/ stretch-backports main non-free contrib
+#deb-src http://repo.huaweicloud.com/debian/ stretch-backports main non-free contrib
