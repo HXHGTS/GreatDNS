@@ -1,0 +1,4 @@
+deb http://mirrors.cloud.tencent.com/debian-archive/debian/ wheezy main non-free contrib
+deb http://mirrors.cloud.tencent.com/debian-archive/debian/ wheezy-proposed-updates main non-free contrib
+deb-src http://mirrors.cloud.tencent.com/debian-archive/debian/ wheezy main non-free contrib
+deb-src http://mirrors.cloud.tencent.com/debian-archive/debian/ wheezy-proposed-updates main non-free contrib
