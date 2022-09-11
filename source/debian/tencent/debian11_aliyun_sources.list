@@ -1,0 +1,8 @@
+deb http://mirrors.cloud.tencent.com/debian/ bullseye main non-free contrib
+deb-src http://mirrors.cloud.tencent.com/debian/ bullseye main non-free contrib
+deb http://mirrors.cloud.tencent.com/debian-security/ bullseye-security main
+deb-src http://mirrors.cloud.tencent.com/debian-security/ bullseye-security main
+deb http://mirrors.cloud.tencent.com/debian/ bullseye-updates main non-free contrib
+deb-src http://mirrors.cloud.tencent.com/debian/ bullseye-updates main non-free contrib
+deb http://mirrors.cloud.tencent.com/debian/ bullseye-backports main non-free contrib
+deb-src http://mirrors.cloud.tencent.com/debian/ bullseye-backports main non-free contrib
