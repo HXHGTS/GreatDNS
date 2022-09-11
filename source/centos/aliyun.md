@@ -1,5 +1,14 @@
 ## CentOS安装源-阿里云
 
+### CentOS 6
+
+```
+rm -f /etc/yum.repos.d/*
+curl -sSL https://mirrors.aliyun.com/repo/Centos-6.repo > /etc/yum.repos.d/CentOS-Base.repo
+sed -i -e '/mirrors.cloud.aliyuncs.com/d' -e '/mirrors.aliyuncs.com/d' /etc/yum.repos.d/CentOS-Base.repo
+yum makecache
+```
+
 ### CentOS 7
 
 ```
