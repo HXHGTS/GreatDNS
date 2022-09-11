@@ -64,3 +64,12 @@ nameserver 172.105.40.5
 nameserver 172.105.38.5
 options rotate
 ```
+Linode(法兰克福-内网)
+```
+domain members.linode.com
+search members.linode.com
+nameserver 139.162.133.5
+nameserver 139.162.138.5
+nameserver 139.162.139.5
+options rotate
+```
