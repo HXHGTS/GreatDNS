@@ -16,3 +16,14 @@ curl -sSL https://gist.github.com/ishad0w/6ce1eb569c734880200c47923577426a/raw/d
 curl -sSL https://gist.github.com/uzielweb/f99d840f9b3b05f1cdb07db25f112d7b/raw/044c7b89776dcf390524408fbf7f6601aa05050e/sources.list > /etc/apt/sources.list && apt update
 ```
 
+### Linode源Debain11
+
+```
+curl -sSL https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/source/debian/linode/debian11_%20linode_sources.list > /etc/apt/sources.list && apt update
+```
+
+### Linode源Debain10
+
+```
+curl -sSL https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/source/debian/linode/debian10_%20linode_sources.list > /etc/apt/sources.list && apt update
+```
