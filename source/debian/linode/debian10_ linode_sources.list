@@ -1,0 +1,9 @@
+deb http://mirrors.linode.com/debian buster main
+deb-src http://mirrors.linode.com/debian buster main
+
+deb http://mirrors.linode.com/debian-security buster/updates main
+deb-src http://mirrors.linode.com/debian-security buster/updates main
+
+# buster-updates, previously known as 'volatile'
+deb http://mirrors.linode.com/debian buster-updates main
+deb-src http://mirrors.linode.com/debian buster-updates main
