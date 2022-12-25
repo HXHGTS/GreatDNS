@@ -1,3 +1,9 @@
+### 备份安装源
+
+```
+cp -f /etc/apt/sources.list /etc/apt/sources.list.bak
+```
+
 ### 官方源Debain11
 
 ```
