@@ -1,0 +1,11 @@
+deb http://mirror.yandex.ru/debian/ bullseye main
+deb-src http://mirror.yandex.ru/debian/ bullseye main
+
+deb http://mirror.yandex.ru/debian/ bullseye-updates main
+deb-src http://mirror.yandex.ru/debian/ bullseye-updates main
+
+deb http://mirror.yandex.ru/debian/ bullseye-backports main
+deb-src http://mirror.yandex.ru/debian/ bullseye-backports main
+
+deb http://mirror.yandex.ru/debian-security/ bullseye-security main
+deb-src http://mirror.yandex.ru/debian-security/ bullseye-security main
