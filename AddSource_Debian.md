@@ -1,7 +1,13 @@
 ### 备份安装源
 
 ```
-cp -f /etc/apt/sources.list /etc/apt/sources.list.bak
+cp -f /etc/apt/sources.list /etc/apt/sources.list.bak && apt update
+```
+
+### 还原安装源
+
+```
+cp -f /etc/apt/sources.list.bak /etc/apt/sources.list && apt update
 ```
 
 ### 官方源Debain11
