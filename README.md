@@ -27,5 +27,5 @@ curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace6.sh | bash
 
 ```
 curl -sSL https://hxhgts.github.io/GreatDNS/speedtest.sh | bash
-echo yes | speedtest
+echo YES | speedtest
 ```
