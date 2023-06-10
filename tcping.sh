@@ -2,6 +2,10 @@
 
 echo 正在下载tcping. . .
 
+apt update
+
+apt install -y wget
+
 wget -O /opt/tcping-linux-amd64-v0.1.1.tar.gz https://github.com/cloverstd/tcping/releases/download/v0.1.1/tcping-linux-amd64-v0.1.1.tar.gz
 
 echo 正在解压并安装tcping. . .
