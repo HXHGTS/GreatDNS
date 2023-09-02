@@ -12,17 +12,20 @@
 
 ### Trace安装
 
-```
-curl -sSL https://hxhgts.github.io/GreatDNS/besttrace.sh | bash
-```
-
+IPV4/双栈环境:
 ```
 curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace.sh | bash
 ```
 ```
+curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace_v1.sh | bash
+```
+Only IPV6环境:
+```
 curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace6.sh | bash
 ```
-
+```
+curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace6_v1.sh | bash
+```
 ### Speedtest安装
 
 ```
