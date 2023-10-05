@@ -37,7 +37,7 @@ echo YES | speedtest
 ### q安装(测试DOH与DOT Server)
 
 ```
-curl -sSL https://raw.githubusercontent.com/HXHGTS/GreatDNS/master/install_q.sh | bash
+curl -sSL https://hxhgts.github.io/GreatDNS/install_q.sh | bash
 ```
 
 ### Tcping安装
