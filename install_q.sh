@@ -38,4 +38,12 @@ chmod +x /usr/local/bin/q
 
 echo 'q已安装!'
 
+echo '----------------------------------'
+
+echo '命令示例(DOH): q www.google.com @https://1.1.1.1/dns-query'
+
+echo '命令示例(DOT): q www.google.com @tls://1.1.1.1'
+
+echo '----------------------------------'
+
 exit 0
