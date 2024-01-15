@@ -95,7 +95,11 @@ IIJ:
 tls://public.dns.iij.jp
 https://public.dns.iij.jp/dns-query
 ```
-
+HE:
+```
+ordns.he.net
+74.82.42.42
+```
 ### 国内(support 5353):
 
 清华大学TUNA666:
