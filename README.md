@@ -31,7 +31,9 @@ curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace6_v1.sh | bash
 ```
 curl -sSL https://hxhgts.github.io/GreatDNS/speedtest.sh | bash
 
-echo YES | speedtest
+echo YES | speedtest -L
+
+speedtest -s <node_id>
 ```
 
 ### q安装(测试DOH与DOT Server)
