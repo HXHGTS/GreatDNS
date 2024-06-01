@@ -1,48 +1,26 @@
 #!/bin/sh
 
-echo '正在安装/升级必需插件. . .'
+apt install -y curl gawk wget tar
 
-apt update
+Q_VERSION=$(curl https://api.github.com/repos/natesales/q/tags | grep name | gawk -F\" '{print $4}' | head -n 1 | sed -e 's/v//g')
 
-apt install -y curl wget tar gawk sed
+wget https://github.com/natesales/q/releases/download/v${Q_VERSION}/q_${Q_VERSION}_linux_amd64.tar.gz -O q_${Q_VERSION}_linux_amd64.tar.gz
 
-echo '正在安装/升级go. . .'
+mkdir -p q_${Q_VERSION}_linux_amd64 && tar -xzvf q_${Q_VERSION}_linux_amd64.tar.gz -C q_${Q_VERSION}_linux_amd64/
 
-apt remove -y --purge golang
+chmod +x q_${Q_VERSION}_linux_amd64/q
 
-apt autoremove -y
+mv -f q_${Q_VERSION}_linux_amd64/q /usr/local/bin/q
 
-rm -rf /usr/local/go
-
-Go_Version=$(curl https://github.com/golang/go/tags | grep '/releases/tag/go' | head -n 1 | gawk -F/ '{print $6}' | gawk -F\" '{print $1}')
-
-wget -O /var/tmp/${Go_Version}.linux-amd64.tar.gz https://go.dev/dl/${Go_Version}.linux-amd64.tar.gz
-
-tar -C /usr/local -xzf /var/tmp/${Go_Version}.linux-amd64.tar.gz
-
-rm -f /var/tmp/${Go_Version}.linux-amd64.tar.gz
-
-export PATH=$PATH:/usr/local/go/bin
-
-go version
-
-echo '正在编译linux版q. . .'
-
-env GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go install -ldflags="-s -w -X main.version=release" github.com/natesales/q@latest
-
-echo '正在安装q. . .'
-
-mv -f /root/go/bin/q /usr/local/bin/
-
-chmod +x /usr/local/bin/q
+rm -rf q_${Q_VERSION}_linux_amd64
 
 echo 'q已安装!'
 
 echo '----------------------------------'
 
-echo '命令示例(DOH): q www.google.com @https://1.1.1.1/dns-query'
+echo '命令示例(DOH): q www.google.com @https://8.8.8.8/dns-query'
 
-echo '命令示例(DOT): q www.google.com @tls://1.1.1.1'
+echo '命令示例(DOT): q www.google.com @tls://8.8.8.8:853'
 
 echo '----------------------------------'
 
