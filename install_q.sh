@@ -14,7 +14,7 @@ mv -f q_${Q_VERSION}_linux_amd64/q /usr/local/bin/q
 
 rm -rf q_${Q_VERSION}_linux_amd64
 
-rm -f q_${Q_VERSION}_linux_amd64.zip
+rm -f q_${Q_VERSION}_linux_amd64.tar.gz
 
 echo 'q已安装!'
 
