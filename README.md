@@ -33,7 +33,7 @@ curl -sSL https://hxhgts.github.io/GreatDNS/speedtest.sh | bash
 
 speedtest -L
 
-echo YES | speedtest -s <node_id>
+yes | speedtest -s <node_id>
 ```
 
 ### q安装(测试DOH与DOT Server)
