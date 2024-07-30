@@ -1,5 +1,8 @@
 #!/bin/sh
 apt install wget -y
-wget https://summer-poetry-7fa8.qq0mjpmkt9z.workers.dev/nxtrace/NTrace-core/releases/latest/download/nexttrace_linux_amd64 -O /usr/local/bin/nexttrace
+cp -f /etc/resolv.conf /etc/resolv.conf.bak
+echo 'nameserver 2a00:1098:2b::1' > /etc/resolv.conf
+wget https://github.com/nxtrace/NTrace-core/releases/latest/download/nexttrace_linux_amd64 -O /usr/local/bin/nexttrace
+mv -f /etc/resolv.conf.bak /etc/resolv.conf
 chmod +x /usr/local/bin/nexttrace
 exit 0
