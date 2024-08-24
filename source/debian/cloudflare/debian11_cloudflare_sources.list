@@ -1,0 +1,8 @@
+deb http://cloudflaremirrors.com/debian/ bullseye main non-free contrib
+deb-src http://cloudflaremirrors.com/debian/ bullseye main non-free contrib
+deb http://cloudflaremirrors.com/debian-security/ bullseye-security main
+deb-src http://cloudflaremirrors.com/debian-security/ bullseye-security main
+deb http://cloudflaremirrors.com/debian/ bullseye-updates main non-free contrib
+deb-src http://cloudflaremirrors.com/debian/ bullseye-updates main non-free contrib
+deb http://cloudflaremirrors.com/debian/ bullseye-backports main non-free contrib
+deb-src http://cloudflaremirrors.com/debian/ bullseye-backports main non-free contrib
