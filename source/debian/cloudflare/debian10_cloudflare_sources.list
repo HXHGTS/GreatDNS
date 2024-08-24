@@ -1,8 +1,11 @@
 deb http://cloudflaremirrors.com/debian/ buster main non-free contrib
 deb-src http://cloudflaremirrors.com/debian/ buster main non-free contrib
-deb http://cloudflaremirrors.com/debian-security buster/updates main
-deb-src http://cloudflaremirrors.com/debian-security buster/updates main
+
 deb http://cloudflaremirrors.com/debian/ buster-updates main non-free contrib
 deb-src http://cloudflaremirrors.com/debian/ buster-updates main non-free contrib
+
 deb http://cloudflaremirrors.com/debian/ buster-backports main non-free contrib
 deb-src http://cloudflaremirrors.com/debian/ buster-backports main non-free contrib
+
+deb http://security.debian.org/debian-security/ buster/updates main
+deb-src http://security.debian.org/debian-security/ buster/updates main
