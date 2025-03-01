@@ -10,6 +10,12 @@ cp -f /etc/apt/sources.list /etc/apt/sources.list.bak && apt update
 cp -f /etc/apt/sources.list.bak /etc/apt/sources.list && apt update
 ```
 
+### 官方源Debain12
+
+```
+curl -sSL https://gist.githubusercontent.com/ishad0w/e1ba0843edc9eb3084a1a0750861d073/raw/8148f9eac76d380f4340242e5a835dc1b9e4d2e7/sources.list > /etc/apt/sources.list && apt update
+```
+
 ### 官方源Debain11
 
 ```
