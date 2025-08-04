@@ -4,7 +4,6 @@
 
 ### Cogent
 
-
 | Location Primary | IPv4 Address | Secondary IPv4 Address |
 | ---------------- | ------------ | ---------------------- |
 | East of Mississippi | 66.28.0.45 | 66.28.0.61 |
@@ -25,4 +24,12 @@
 | Africa | 2001:978:1:1::d | 2001:978:1:2::d |
 
 
-### Telia Carrier
+### Arelion (AKA.Telia Carrier)
+
+| City | Country | Public IPv4 | Public IPv6 |
+| ---------------- | ------------ | ---------------------- | ---------------------- |
+| Stockholm | Sweden | 213.248.100.54 | 2001:2030:c000:4::4 |
+| Frankfurt | Germany | 213.248.76.210 | 2001:2030:c000:2::4 |
+| New York | United States | 209.95.129.122 | 2607:41c0:c000:2::4 |
+| Los Angeles | United States | 209.170.66.202 | 2607:41c0:c000:4::4 |
+| Singapore | Singapore | 202.163.0.2 | 2407:1600:c000::4 |
