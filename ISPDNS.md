@@ -52,3 +52,9 @@
 | dns08.netvigator.com | 205.252.144.28 | |
 | dns09.netvigator.com | 218.102.60.110 | |
 | dns10.netvigator.com | 219.76.98.66 | |
+
+### TMNET
+
+| Domain | Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------- | ---------------------- | ---------------------- |
+| dns.tm.net.my | 1.9.1.9 | 210.187.85.34 |
