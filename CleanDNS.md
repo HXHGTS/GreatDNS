@@ -100,7 +100,7 @@ HE:
 ordns.he.net
 74.82.42.42
 ```
-surfsharkk:
+surfshark:
 ```
 194.169.169.169
 2a09:a707:169::
