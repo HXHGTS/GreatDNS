@@ -22,3 +22,30 @@
 | New York | United States | 209.95.129.122 | 2607:41c0:c000:2::4 |
 | Los Angeles | United States | 209.170.66.202 | 2607:41c0:c000:4::4 |
 | Singapore | Singapore | 202.163.0.2 | 2407:1600:c000::4 |
+
+### KT
+
+| Primary IPv4 Address | Secondary IPv4 Address |
+| 168.126.63.1 | 168.126.63.2 |
+
+### HiNet
+
+| Primary IPv4 Address | Secondary IPv4 Address | Primary IPv6 Address | Secondary IPv6 Address |
+| 168.95.1.1 | 168.95.192.1 | 2001:b000:168::1 | 2001:b000:168::2 |
+
+### HKT Netvigator
+
+| Domain | Primary IPv4 Address | Primary IPv6 Address |
+| ns1.netvigator.com | 205.252.144.228 | |
+| ns2.netvigator.com | 203.198.7.66 | |
+| ns3.netvigator.com | 218.102.23.228 | |
+| dns01.netvigator.com | 205.252.144.77 | 
+| dns02.netvigator.com | 218.102.62.71 | 
+| dns03.netvigator.com | 203.198.23.208 | |
+| dns04.netvigator.com | 218.102.32.208 | 2404:c800:8000:1c::1201 |
+| dns05.netvigator.com | 218.102.23.77 | |
+| dns06.netvigator.com | 205.252.144.126 | |
+| dns07.netvigator.com | 218.102.48.77 | |
+| dns08.netvigator.com | 205.252.144.28 | |
+| dns09.netvigator.com | 218.102.60.110 | |
+| dns10.netvigator.com | 219.76.98.66 | |
