@@ -100,6 +100,13 @@ HE:
 ordns.he.net
 74.82.42.42
 ```
+surfsharkk:
+```
+194.169.169.169
+2a09:a707:169::
+https://dns.surfsharkdns.com/dns-query
+```
+
 ### 国内(support 5353):
 
 清华大学TUNA666:
