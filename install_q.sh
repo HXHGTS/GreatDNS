@@ -22,9 +22,9 @@ echo 'q已安装!'
 
 echo '----------------------------------'
 
-echo '命令示例(DOH): q --subnet=168.95.1.1/32 rthkradio1-live.akamaized.net @https://8.8.8.8/dns-query'
+echo '命令示例(DOH): q --subnet=168.95.1.0/24 rthkradio1-live.akamaized.net @https://8.8.8.8/dns-query'
 
-echo '命令示例(DOT): q --subnet=168.95.1.1/32 rthkradio1-live.akamaized.net @tls://8.8.8.8:853'
+echo '命令示例(DOT): q --subnet=168.126.63.0/24 rthkradio1-live.akamaized.net @tls://8.8.8.8:853'
 
 echo '----------------------------------'
 
