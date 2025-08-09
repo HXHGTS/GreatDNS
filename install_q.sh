@@ -22,9 +22,9 @@ echo 'q已安装!'
 
 echo '----------------------------------'
 
-echo '命令示例(DOH): q www.google.com @https://8.8.8.8/dns-query'
+echo '命令示例(DOH): q --subnet=168.95.1.1/32 upos-hz-mirrorakam.akamaized.net @https://8.8.8.8/dns-query'
 
-echo '命令示例(DOT): q www.google.com @tls://8.8.8.8:853'
+echo '命令示例(DOT): q --subnet=168.95.1.1/32 upos-hz-mirrorakam.akamaized.net @tls://8.8.8.8:853'
 
 echo '----------------------------------'
 
