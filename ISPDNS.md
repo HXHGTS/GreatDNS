@@ -112,10 +112,11 @@
 
 ### SO-NET
 
-| Primary IPv4 Address | Secondary IPv4 Address |
+| Domain | Primary IPv4 Address |
 | ---------------- | ------------ |
-| 61.64.127.1 | 61.64.127.2 |
-| 61.64.127.3 | |
+| ns1.so-net.net.tw | 61.64.127.1 |
+| ns2.so-net.net.tw | 61.64.127.2 |
+| ns3.so-net.net.tw | 61.64.127.3 |
 
 ### TMNET
 
