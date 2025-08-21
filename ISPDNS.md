@@ -25,7 +25,7 @@
 | Los Angeles | United States | 209.170.66.202 | 2607:41c0:c000:4::4 |
 | Singapore | Singapore | 202.163.0.2 | 2407:1600:c000::4 |
 
-### LUMEN
+### LUMEN (AKA.CenturyLink)
 
 | Primary IPv4 Address | Secondary IPv4 Address |
 | ---------------------- | ---------------------- |
