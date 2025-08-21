@@ -38,32 +38,41 @@
 | ---------------------- | ---------------------- |
 | 129.250.35.250 | 129.250.35.251 |
 
-### HKT Netvigator
+### PCCW GLOBAL
 
-| Domain | Primary IPv4 Address | Primary IPv6 Address |
-| ---------------- | ---------------------- | ---------------------- |
-| ns1.netvigator.com | 205.252.144.228 | |
-| ns2.netvigator.com | 203.198.7.66 | |
-| ns3.netvigator.com | 218.102.23.228 | |
-| dns01.netvigator.com | 205.252.144.77 | 
-| dns02.netvigator.com | 218.102.62.71 | 
-| dns03.netvigator.com | 203.198.23.208 | |
-| dns04.netvigator.com | 218.102.32.208 | 2404:c800:8000:1c::1201 |
-| dns05.netvigator.com | 218.102.23.77 | |
-| dns06.netvigator.com | 205.252.144.126 | |
-| dns07.netvigator.com | 218.102.48.77 | |
-| dns08.netvigator.com | 205.252.144.28 | |
-| dns09.netvigator.com | 218.102.60.110 | |
-| dns10.netvigator.com | 219.76.98.66 | |
+| Domain | Primary IPv4 Address |
+| ---------------- | ---------------------- |
+| ns1.pbase.net | 202.153.97.2 |
+| ns2.pbase.net | 202.153.97.130 |
 
 ## Others ISPs
 
 ### HKBN
 
-| Domain | Primary IPv4 Address | Primary IPv6 Address |
-| ---------------- | ---------------------- | ---------------------- |
-| ns1.netvigator.com | 203.80.96.10 | 203.80.96.9 |
-| ns1.netvigator.com | 203.186.94.20 | 203.186.94.22 |
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------------- | ---------------------- |
+| 203.80.96.10 | 203.80.96.9 |
+| 203.186.94.20 | 203.186.94.22 |
+
+### HGC
+
+| Domain | Primary IPv4 Address |
+| ---------------- | ---------------------- |
+| ns250.on-nets.com | 210.0.128.250 |
+| ns251.on-nets.com | 210.0.128.251 |
+
+### I-CABLE
+
+| Domain | Primary IPv4 Address |
+| ---------------- | ---------------------- |
+| dns1.hkcable.com.hk | 61.10.0.130 |
+| dns2.hkcable.com.hk | 61.10.1.130 |
+
+### CMHK
+
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------------- | ---------------------- |
+| 203.142.100.18 | 203.142.100.21 |
 
 ### KT
 
