@@ -132,3 +132,27 @@
 | ---------------- | ---------------------- | ---------------------- |
 | dns.tm.net.my | 1.9.1.9 | 210.187.85.34 |
 
+### SINGAPORE
+
+#### SINGTEL
+
+| Domain | Primary IPv4 Address | Primary IPv6 Address |
+| ---------------- | ---------------------- | ---------------------- |
+| dnscache1.singnet.com.sg | 165.21.83.88 | |
+| dnscache2.singnet.com.sg | 165.21.100.88 | |
+| dnscache3.singnet.com.sg | 202.166.108.88 | 2400:d800::1 |
+
+#### STARHUB
+
+| Domain | Primary IPv4 Address | Secondary IPv4 Address | Primary IPv6 Address |
+| ---------------- | ---------------------- | ---------------------- | ---------------------- |
+| secdns.starhub.net.sg | 203.116.1.94 | 203.116.24.206 | 2406:3000::203:116:24:ce |
+
+#### M1
+
+| Domain | Primary IPv4 Address | Primary IPv6 Address |
+| ---------------- | ---------------------- | ---------------------- |
+| nscache1.m1net.com.sg | 203.211.152.66 | 2001:fc0:1000:2000:203:211:152:66 |
+| nscache2.m1net.com.sg | 210.193.2.66 | 2001:fc0:1000:1000:210:193:2:66 |
+| nscache3.m1net.com.sg | 172.16.51.52 | |
+
