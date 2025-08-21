@@ -98,6 +98,25 @@
 | ---------------- | ------------ | ---------------------- | ---------------------- |
 | 168.95.1.1 | 168.95.192.1 | 2001:b000:168::1 | 2001:b000:168::2 |
 
+### TFN
+
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------- | ------------ |
+| 61.31.1.1 | 61.31.233.1 |
+
+### SEEDNET
+
+| Primary IPv4 Address |
+| ---------------- |
+| 139.175.1.1 |
+
+### SO-NET
+
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------- | ------------ |
+| 61.64.127.1 | 61.64.127.2 |
+| 61.64.127.3 | |
+
 ### TMNET
 
 | Domain | Primary IPv4 Address | Secondary IPv4 Address |
