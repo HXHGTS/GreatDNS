@@ -2,6 +2,8 @@
 
 [返回上一级](/index.md)
 
+## Tier 1
+
 ### Cogent
 
 | Location | Primary IPv4 Address | Secondary IPv4 Address | Primary IPv6 Address | Secondary IPv6 Address |
@@ -23,17 +25,18 @@
 | Los Angeles | United States | 209.170.66.202 | 2607:41c0:c000:4::4 |
 | Singapore | Singapore | 202.163.0.2 | 2407:1600:c000::4 |
 
-### KT
+### LUMEN
 
 | Primary IPv4 Address | Secondary IPv4 Address |
 | ---------------------- | ---------------------- |
-| 168.126.63.1 | 168.126.63.2 |
+| 4.2.2.1 | 4.2.2.2 |
+| 205.171.2.65 | 205.171.3.65 |
 
-### HiNet
+### NTT
 
-| Primary IPv4 Address | Secondary IPv4 Address | Primary IPv6 Address | Secondary IPv6 Address |
-| ---------------- | ------------ | ---------------------- | ---------------------- |
-| 168.95.1.1 | 168.95.192.1 | 2001:b000:168::1 | 2001:b000:168::2 |
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------------- | ---------------------- |
+| 129.250.35.250 | 129.250.35.251 |
 
 ### HKT Netvigator
 
@@ -53,8 +56,42 @@
 | dns09.netvigator.com | 218.102.60.110 | |
 | dns10.netvigator.com | 219.76.98.66 | |
 
+## Others ISPs
+
+### HKBN
+
+| Domain | Primary IPv4 Address | Primary IPv6 Address |
+| ---------------- | ---------------------- | ---------------------- |
+| ns1.netvigator.com | 203.80.96.10 | 203.80.96.9 |
+| ns1.netvigator.com | 203.186.94.20 | 203.186.94.22 |
+
+### KT
+
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------------- | ---------------------- |
+| 168.126.63.1 | 168.126.63.2 |
+
+### SKT
+
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------------- | ---------------------- |
+| 219.250.36.130 | 210.220.163.82 |
+
+### LG U+
+
+| Primary IPv4 Address | Secondary IPv4 Address |
+| ---------------------- | ---------------------- |
+| 164.124.101.2 | 203.248.252.2 |
+
+### HiNet
+
+| Primary IPv4 Address | Secondary IPv4 Address | Primary IPv6 Address | Secondary IPv6 Address |
+| ---------------- | ------------ | ---------------------- | ---------------------- |
+| 168.95.1.1 | 168.95.192.1 | 2001:b000:168::1 | 2001:b000:168::2 |
+
 ### TMNET
 
 | Domain | Primary IPv4 Address | Secondary IPv4 Address |
 | ---------------- | ---------------------- | ---------------------- |
 | dns.tm.net.my | 1.9.1.9 | 210.187.85.34 |
+
