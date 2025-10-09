@@ -1,9 +1,11 @@
 #!/bin/sh
 apt install wget -y
-cp -f /etc/resolv.conf /etc/resolv.conf.bak
-echo 'nameserver 2a00:1098:2b::1' > /etc/resolv.conf
-NT_VERSION=$(curl https://api.github.com/repos/nxtrace/NTrace-V1/tags | grep name | awk -F\" '{print $4}' | head -n 1 | sed -e 's/v//g')
-wget https://github.com/nxtrace/NTrace-V1/releases/download/v${NT_VERSION}/nexttrace_linux_amd64 -O /usr/local/bin/nexttrace
-mv -f /etc/resolv.conf.bak /etc/resolv.conf
+#echo 'nameserver 2a00:1098:2b::1' > /etc/resolv.conf
+cp -f /etc/hosts /etc/hosts.bak
+echo '2a00:1098:2b::1:141a:9cd2 api.github.com' > /etc/hosts
+echo '2a00:1098:2b::1:141a:9cd7 github.com' >> /etc/hosts
+NT_URL=$(curl https://api.github.com/repos/nxtrace/NTrace-V1/releases | grep browser_download_url | grep nexttrace_linux_amd64 | head -n 1 | awk -F\" '{print $4}')
+wget ${NT_URL} -O /usr/local/bin/nexttrace
+mv -f /etc/hosts.bak /etc/hosts
 chmod +x /usr/local/bin/nexttrace
 exit 0
