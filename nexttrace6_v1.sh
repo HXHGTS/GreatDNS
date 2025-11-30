@@ -4,6 +4,7 @@ apt install wget -y
 mv -f /etc/hosts /etc/hosts.bak
 echo '2a00:1098:2b::1:141a:9cd2 api.github.com' > /etc/hosts
 echo '2a00:1098:2b::1:141a:9cd7 github.com' >> /etc/hosts
+echo '2a00:1098:2b::1:b9c7:6c85 release-assets.githubusercontent.com' >> /etc/hosts
 NT_URL=$(curl https://api.github.com/repos/nxtrace/NTrace-V1/releases | grep browser_download_url | grep nexttrace_linux_amd64 | head -n 1 | awk -F\" '{print $4}')
 wget ${NT_URL} -O /usr/local/bin/nexttrace
 mv -f /etc/hosts.bak /etc/hosts
