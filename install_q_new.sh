@@ -1,0 +1,31 @@
+#!/bin/sh
+
+apt install -y curl tar
+
+# Q_VERSION=0.19.2
+
+Q_VERSION=$(curl https://api.github.com/repos/natesales/q/tags | grep name | awk -F\" '{print $4}' | head -n 1 | sed -e 's/v//g')
+
+curl -o q_${Q_VERSION}_linux_amd64.tar.gz -sSL https://github.com/natesales/q/releases/download/v${Q_VERSION}/q_${Q_VERSION}_linux_amd64.tar.gz
+
+mkdir -p q_${Q_VERSION}_linux_amd64 && tar -xzvf q_${Q_VERSION}_linux_amd64.tar.gz -C q_${Q_VERSION}_linux_amd64/
+
+chmod +x q_${Q_VERSION}_linux_amd64/q
+
+mv -f q_${Q_VERSION}_linux_amd64/q /usr/local/bin/q
+
+rm -rf q_${Q_VERSION}_linux_amd64
+
+rm -f q_${Q_VERSION}_linux_amd64.tar.gz
+
+echo 'q已安装!'
+
+echo '----------------------------------'
+
+echo '命令示例(DOH): q --subnet=168.95.1.0/24 rthkradio1-live.akamaized.net @https://8.8.8.8/dns-query'
+
+echo '命令示例(DOT): q --subnet=168.126.63.0/24 rthkradio1-live.akamaized.net @tls://8.8.8.8:853'
+
+echo '----------------------------------'
+
+exit 0
