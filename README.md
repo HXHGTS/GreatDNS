@@ -15,7 +15,10 @@
 IPV4/双栈环境:
 ```
 curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace.sh | bash
-# Remove: apt remove -y nexttrace
+# rm -f /usr/local/bin/nexttrace
+# rm -f /etc/apt/keyrings/nexttrace.gpg
+# rm -f /etc/apt/sources.list.d/nexttrace.sources
+# apt update
 ```
 ```
 curl -sSL https://hxhgts.github.io/GreatDNS/nexttrace_v1.sh | bash
